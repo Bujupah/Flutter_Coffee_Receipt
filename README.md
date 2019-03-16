@@ -1,8 +1,24 @@
-# app
+# Flutter Coffee Receipt
 
-A new Flutter project.
+A new Flutter project for storing sales and displaying statistics etc...
 
-## Getting Started
+<div style="display: inline-block;">
+<img src="z_side.png" alt="alt text" width="100px" height="200px">
+<img width="20px">
+<img src="z_cold.png" alt="alt text" width="100px" height="200px">
+<img width="20px">
+<img src="z_confirm.png" alt="alt text" width="100px" height="200px">
+<img width="20px">
+<img src="z_addstock.png" alt="alt text" width="100px" height="200px">
+<img width="20px">
+<img src="z_stock.png" alt="alt text" width="100px" height="200px">
+<img width="20px">
+<img src="z_history.png" alt="alt text" width="100px" height="200px">
+<img width="20px">
+<img src="z_topsales.png" alt="alt text" width="100px" height="200px">
+<div>
+  
+  ## Getting Started
 
 This project is a starting point for a Flutter application.
 
