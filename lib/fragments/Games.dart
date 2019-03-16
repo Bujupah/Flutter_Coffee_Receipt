@@ -3,7 +3,6 @@ import 'package:app/products/sale.dart';
 import 'package:app/products/detail.dart';
 import 'package:app/sqflite/DatabaseHelper.dart';
 import 'package:app/sqflite/HistorySQL.dart';
-import 'package:app/sqflite/StockSQL.dart';
 import 'package:app/sqflite/SalesSQL.dart';
 
 class Games extends StatelessWidget {
@@ -40,7 +39,7 @@ class Games extends StatelessWidget {
     ];
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
+
     return new Scaffold(
       body:ListView.builder(
         itemCount: hot.length,

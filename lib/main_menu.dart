@@ -1,12 +1,3 @@
-import 'package:app/fragments/Hot.dart';
-import 'package:app/fragments/Cold.dart';
-import 'package:app/fragments/Food.dart';
-import 'package:app/fragments/Games.dart';
-import 'package:app/fragments/Formules.dart';
-
-import 'package:app/features/History.dart';
-import 'package:app/features/Stock.dart';
-import 'package:app/features/TopSales.dart';
 import 'package:flutter/material.dart';
 import 'package:app/design/menu_design.dart';
 class MainMenu extends StatefulWidget {

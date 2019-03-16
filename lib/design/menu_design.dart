@@ -20,11 +20,13 @@ class ProductRow extends StatelessWidget {
     final baseTextStyle = const TextStyle(
     );
 
+    /*
     final regularTextStyle = baseTextStyle.copyWith(
       color: Colors.amber[300],
       fontSize: 14.0,
       fontWeight: FontWeight.w400
     );
+    */
     final timeTextStyle = baseTextStyle.copyWith(
 
       color: Colors.amber[300],
@@ -39,6 +41,7 @@ class ProductRow extends StatelessWidget {
       fontWeight: FontWeight.w600,
     );
 
+    /*
     Widget _productValue({String key,String value}) {
       return new Row(
         children: <Widget>[
@@ -49,6 +52,7 @@ class ProductRow extends StatelessWidget {
         ]
       );
     }
+    */
 
 
     final productCardContent = new Container(

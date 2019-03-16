@@ -46,7 +46,7 @@ class _HistoryState extends State<History> {
   
   Future drawWidget() async{
     print(dayList);
-    await drawAll();
+    drawAll();
     setState(() {
       for(int i=0;i<sumList.length;i++){
         widgetsListH.add(buildTableRowH(sumList[i],dayList[i],monthList[i],yearList[i]));

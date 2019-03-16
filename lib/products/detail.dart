@@ -10,7 +10,7 @@ class detail extends StatefulWidget {
 
   @override
   State<StatefulWidget> createState() {
-    // TODO: implement createState
+
     return detailState();
   }
 }
@@ -21,10 +21,9 @@ class detailState extends State<detail> {
   var db = new DatabaseHelper();
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
+
 
     Column buildButtonColumn(IconData icon, String label,Color colorB,int x) {
-      Color color = Theme.of(context).primaryColor;
 
       return Column(
         mainAxisSize: MainAxisSize.min,
